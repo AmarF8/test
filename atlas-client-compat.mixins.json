@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "package": "com.atlas.client.mixin.compat",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.atlas.client.mixin.compat.AtlasClientCompatMixinPlugin",
+  "client": [
+    "morecobblemon.MoreCobblemonTweaksIvWidgetMixin",
+    "xaero.XaeroMiscMixin",
+    "xaero.XaeroRadarElementReaderMixin",
+    "xaero.XaeroRadarRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "refmap": "atlas-client-refmap.json"
+}
