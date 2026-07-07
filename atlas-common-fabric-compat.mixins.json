@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.atlas.common.fabric.mixin.compat",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.atlas.common.fabric.mixin.compat.AtlasCompatMixinPlugin",
+  "client": [
+    "jade.JadeOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "refmap": "atlas-common-fabric-refmap.json"
+}

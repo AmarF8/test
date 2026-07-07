@@ -1,0 +1,20 @@
+{
+  "pokemons": [
+    "Necrozma"
+  ],
+  "showdown_form_change_id": "dawn",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "prism_fusion=dawn"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "prism_fusion=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:n_lunar",
+  "item": "nlunarizer"
+}

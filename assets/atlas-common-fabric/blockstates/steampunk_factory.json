@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "facing=north,quadrant=origin": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=east,quadrant=origin": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory",
+      "y": 90
+    },
+    "facing=south,quadrant=origin": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory",
+      "y": 180
+    },
+    "facing=west,quadrant=origin": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory",
+      "y": 270
+    },
+    "facing=north,quadrant=right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=east,quadrant=right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=south,quadrant=right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=west,quadrant=right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=north,quadrant=back": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=east,quadrant=back": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=south,quadrant=back": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=west,quadrant=back": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=north,quadrant=back_right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=east,quadrant=back_right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=south,quadrant=back_right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    },
+    "facing=west,quadrant=back_right": {
+      "model": "atlas-common-fabric:block/stations/steampunk_factory"
+    }
+  }
+}

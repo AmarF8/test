@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "atlas-common-fabric:block/stations/butterfly_fields" },
+    "facing=east": { "model": "atlas-common-fabric:block/stations/butterfly_fields", "y": 90 },
+    "facing=south": { "model": "atlas-common-fabric:block/stations/butterfly_fields", "y": 180 },
+    "facing=west": { "model": "atlas-common-fabric:block/stations/butterfly_fields", "y": 270 }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "fighting",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=fighting"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_fighting_memory"
+}

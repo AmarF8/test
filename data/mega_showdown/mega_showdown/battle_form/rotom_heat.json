@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Rotom"
+  ],
+  "showdown_form_change_id": "heat",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "appliance=heat"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "appliance=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:rotom_heat_effect"
+}

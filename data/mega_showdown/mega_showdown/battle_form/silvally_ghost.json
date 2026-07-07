@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "ghost",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=ghost"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_ghost_memory"
+}

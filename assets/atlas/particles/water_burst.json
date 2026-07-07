@@ -1,0 +1,8 @@
+{
+  "textures": [
+    "atlas:rs_bubbleone",
+    "atlas:rs_bubbletwo",
+    "atlas:rs_bubblethree",
+    "minecraft:bubble"
+  ]
+}

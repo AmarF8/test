@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "atlas-common-fabric:shadow_meteor_ore"
+  },
+  "result": {
+    "id": "atlas-common-fabric:shadow_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 100
+}

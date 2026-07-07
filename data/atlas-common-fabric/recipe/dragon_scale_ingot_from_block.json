@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "atlas-common-fabric:dragon_scale_block"
+    }
+  ],
+  "result": {
+    "id": "atlas-common-fabric:dragon_scale_ingot",
+    "count": 9
+  }
+}

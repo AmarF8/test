@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Kyurem"
+  ],
+  "showdown_form_change_id": "white",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "absofusion=white"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "absofusion=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:kyurem_white"
+}

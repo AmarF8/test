@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "atlas-common-fabric:raw_elemental_meteorite"
+  },
+  "result": {
+    "id": "atlas-common-fabric:elemental_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

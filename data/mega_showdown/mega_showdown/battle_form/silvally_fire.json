@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "fire",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=fire"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_fire_memory"
+}

@@ -1,0 +1,9 @@
+{
+  "textures": [
+    "atlas:rs_snowone",
+    "atlas:rs_snowtwo",
+    "atlas:rs_snowthree",
+    "atlas:rs_snowfour",
+    "atlas:rs_snowfive"
+  ]
+}

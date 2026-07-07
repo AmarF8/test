@@ -1,0 +1,20 @@
+{
+  "pokemons": [
+    "Deoxys"
+  ],
+  "showdown_form_change_id": "normal",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "meteorite_forme=normal"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "meteorite_forme=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:deoxys_effect",
+  "forward_item": "minecraft:end_stone"
+}

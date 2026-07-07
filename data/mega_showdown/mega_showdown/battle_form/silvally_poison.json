@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "poison",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=poison"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_poison_memory"
+}

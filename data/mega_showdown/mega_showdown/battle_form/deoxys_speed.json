@@ -1,0 +1,20 @@
+{
+  "pokemons": [
+    "Deoxys"
+  ],
+  "showdown_form_change_id": "speed",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "meteorite_forme=speed"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "meteorite_forme=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:deoxys_effect",
+  "forward_item": "minecraft:chorus_flower"
+}

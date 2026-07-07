@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "atlas-common-fabric:block/safari_meteor/elemental_meteor_ore"
+  }
+}

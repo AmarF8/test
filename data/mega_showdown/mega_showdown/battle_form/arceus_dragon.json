@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Arceus"
+  ],
+  "showdown_form_change_id": "dragon",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "multitype=dragon"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "multitype=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:arceus_dragon",
+  "forward_item": "dracoplate",
+  "consume_item": true
+}

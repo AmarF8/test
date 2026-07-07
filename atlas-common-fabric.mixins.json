@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.atlas.common.fabric.mixin.content",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CobblemonDataProviderMixin",
+    "GraalShowdownUnbundlerMixin",
+    "accessor.MovesAccessor"
+  ],
+  "client": [
+    "accessor.BossBarHudAccessor",
+    "accessor.ToastManagerAccessor",
+    "accessor.WorldRendererAccessor",
+    "client.ClientPlayerInteractionManagerStatueMixin",
+    "client.ChatHudSafariFishingMixin",
+    "client.ChatScreenSafariFishingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "atlas-common-fabric-refmap.json"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "atlas-common-fabric:solar_block"
+    }
+  ],
+  "result": {
+    "id": "atlas-common-fabric:solar_ingot",
+    "count": 9
+  }
+}

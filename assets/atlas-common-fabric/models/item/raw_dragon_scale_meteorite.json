@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "atlas-common-fabric:item/raw_dragon_scale_meteorite"
+  }
+}

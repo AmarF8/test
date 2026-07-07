@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "atlas-common-fabric",
+  "version": "1.2.0",
+  "name": "Atlas Common Fabric",
+  "description": "Atlas fabric common mod is a mod that supports both client and server side features.",
+  "authors": [
+    "Obyvante"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.atlas.common.fabric.AtlasMod"
+    ],
+    "client": [
+      "com.atlas.common.fabric.AtlasClientMod"
+    ],
+    "server": [
+      "com.atlas.common.fabric.AtlasServerMod"
+    ]
+  },
+  "mixins": [
+    "atlas-common-fabric.mixins.json",
+    "atlas-common-fabric-compat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.9",
+    "minecraft": "~1.21.1",
+    "java": "\u003e\u003d21",
+    "fabric-api": "*",
+    "cobblemon": "\u003e\u003d1.7.2+1.21.1"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/adventure-platform-fabric-5.14.2.jar"
+    }
+  ]
+}

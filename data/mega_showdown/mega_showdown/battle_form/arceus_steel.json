@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Arceus"
+  ],
+  "showdown_form_change_id": "steel",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "multitype=steel"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "multitype=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:arceus_steel",
+  "forward_item": "ironplate",
+  "consume_item": true
+}

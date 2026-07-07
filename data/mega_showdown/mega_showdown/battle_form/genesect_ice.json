@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    "Genesect"
+  ],
+  "showdown_form_change_id": "ice",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "techno_drive=ice"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "techno_drive=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:mega_evolution",
+  "item": "chilldrive",
+  "forward_item": "chilldrive",
+  "equip_forward_item": true
+}

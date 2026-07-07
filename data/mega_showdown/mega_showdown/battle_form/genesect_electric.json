@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    "Genesect"
+  ],
+  "showdown_form_change_id": "electric",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "techno_drive=electric"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "techno_drive=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:mega_evolution",
+  "item": "shockdrive",
+  "forward_item": "shockdrive",
+  "equip_forward_item": true
+}

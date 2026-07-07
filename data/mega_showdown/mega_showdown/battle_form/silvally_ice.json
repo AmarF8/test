@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "ice",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=ice"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_ice_memory"
+}

@@ -1,0 +1,321 @@
+/*     */ package com.atlas.common.fabric.guide.network;
+/*     */ 
+/*     */ import net.minecraft.class_8710;
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ public final class SyncGuideDataPayload
+/*     */   extends Record
+/*     */   implements class_8710
+/*     */ {
+/*     */   private final String dataType;
+/*     */   private final String jsonData;
+/*     */   private final int totalCount;
+/*     */   private final int page;
+/*     */   
+/*     */   public final String toString() {
+/*     */     // Byte code:
+/*     */     //   0: aload_0
+/*     */     //   1: <illegal opcode> toString : (Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;)Ljava/lang/String;
+/*     */     //   6: areturn
+/*     */     // Line number table:
+/*     */     //   Java source line number -> byte code offset
+/*     */     //   #283	-> 0
+/*     */     // Local variable table:
+/*     */     //   start	length	slot	name	descriptor
+/*     */     //   0	7	0	this	Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;
+/*     */   }
+/*     */   
+/*     */   public final int hashCode() {
+/*     */     // Byte code:
+/*     */     //   0: aload_0
+/*     */     //   1: <illegal opcode> hashCode : (Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;)I
+/*     */     //   6: ireturn
+/*     */     // Line number table:
+/*     */     //   Java source line number -> byte code offset
+/*     */     //   #283	-> 0
+/*     */     // Local variable table:
+/*     */     //   start	length	slot	name	descriptor
+/*     */     //   0	7	0	this	Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;
+/*     */   }
+/*     */   
+/*     */   public final boolean equals(Object o) {
+/*     */     // Byte code:
+/*     */     //   0: aload_0
+/*     */     //   1: aload_1
+/*     */     //   2: <illegal opcode> equals : (Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;Ljava/lang/Object;)Z
+/*     */     //   7: ireturn
+/*     */     // Line number table:
+/*     */     //   Java source line number -> byte code offset
+/*     */     //   #283	-> 0
+/*     */     // Local variable table:
+/*     */     //   start	length	slot	name	descriptor
+/*     */     //   0	8	0	this	Lcom/atlas/common/fabric/guide/network/GuideNetwork$SyncGuideDataPayload;
+/*     */     //   0	8	1	o	Ljava/lang/Object;
+/*     */   }
+/*     */   
+/*     */   public SyncGuideDataPayload(String dataType, String jsonData, int totalCount, int page) {
+/* 283 */     this.dataType = dataType; this.jsonData = jsonData; this.totalCount = totalCount; this.page = page; } public String dataType() { return this.dataType; } public String jsonData() { return this.jsonData; } public int totalCount() { return this.totalCount; } public int page() { return this.page; } public class_8710.class_9154<? extends class_8710> method_56479() {
+/* 284 */     return (class_8710.class_9154)GuideNetwork.SYNC_GUIDE_DATA_TYPE;
+/*     */   }
+/*     */ }
+
+
+/* Location:              C:\Users\amarf\AppData\Roaming\ModrinthApp\profiles\Cobblemon.gg - Ultimate Pokemon Experience\mods\atlas-common-fabric-1.2.0.jar!\com\atlas\common\fabric\guide\network\GuideNetwork$SyncGuideDataPayload.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

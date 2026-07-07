@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Arceus"
+  ],
+  "showdown_form_change_id": "ice",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "multitype=ice"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "multitype=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:arceus_ice",
+  "forward_item": "icicleplate",
+  "consume_item": true
+}

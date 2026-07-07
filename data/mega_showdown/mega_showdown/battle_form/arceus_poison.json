@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Arceus"
+  ],
+  "showdown_form_change_id": "poison",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "multitype=poison"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "multitype=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:arceus_poison",
+  "forward_item": "toxicplate",
+  "consume_item": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "atlas-common-fabric:solar_meteor_ore"
+  },
+  "result": {
+    "id": "atlas-common-fabric:solar_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 100
+}

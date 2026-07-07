@@ -1,0 +1,17 @@
+{
+  "pokemons": ["Zamazenta"],
+  "showdown_form_change_id": "crowned",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["behemoth_warrior=crowned"]
+    },
+    "revert": {
+      "aspects": ["behemoth_warrior=hero"]
+    }
+  },
+  "effect": "mega_showdown:rusted_shield",
+  "learnable_moves": ["behemothbash"],
+  "item": "rustedshield",
+  "forward_item": "rustedshield",
+  "consume_item": false
+}

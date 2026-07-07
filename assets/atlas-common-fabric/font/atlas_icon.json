@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "atlas-common-fabric:font/atlas/air_balloon.png",
+      "height": 12,
+      "ascent": 10,
+      "chars": [
+        "\ue001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas-common-fabric:font/atlas/drifloon.png",
+      "height": 76,
+      "ascent": 10,
+      "chars": [
+        "\ue000"
+      ]
+    }
+  ]
+}

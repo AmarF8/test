@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Rotom"
+  ],
+  "showdown_form_change_id": "fan",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "appliance=fan"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "appliance=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:rotom_fan_effect"
+}

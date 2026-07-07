@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Rotom"
+  ],
+  "showdown_form_change_id": "frost",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "appliance=frost"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "appliance=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:rotom_frost_effect"
+}

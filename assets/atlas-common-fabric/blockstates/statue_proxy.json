@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "atlas-common-fabric:block/empty" },
+    "facing=east": { "model": "atlas-common-fabric:block/empty" },
+    "facing=south": { "model": "atlas-common-fabric:block/empty" },
+    "facing=west": { "model": "atlas-common-fabric:block/empty" }
+  }
+}

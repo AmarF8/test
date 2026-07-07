@@ -1,0 +1,17 @@
+{
+  "pokemons": ["Zygarde"],
+  "showdown_form_change_id": "10",
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [["1-percent"]]
+      },
+      "aspects": ["percent_cells=10"]
+    },
+    "revert": {
+      "aspects": ["percent_cells=1"]
+    }
+  },
+  "effect": "mega_showdown:zygarde_cell",
+  "forward_item": "zygardecell"
+}

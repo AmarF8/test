@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    "Genesect"
+  ],
+  "showdown_form_change_id": "water",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "techno_drive=water"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "techno_drive=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:mega_evolution",
+  "item": "dousedrive",
+  "forward_item": "dousedrive",
+  "equip_forward_item": true
+}

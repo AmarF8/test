@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Arceus"
+  ],
+  "showdown_form_change_id": "rock",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "multitype=rock"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "multitype=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:arceus_rock",
+  "forward_item": "stoneplate",
+  "consume_item": true
+}

@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Landorus"
+  ],
+  "showdown_form_change_id": "therian",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "mirror_forme=therian"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mirror_forme=incarnate"
+      ]
+    }
+  },
+  "effect": "mega_showdown:mega_evolution",
+  "item": "revealglass",
+  "forward_item": "revealglass"
+}

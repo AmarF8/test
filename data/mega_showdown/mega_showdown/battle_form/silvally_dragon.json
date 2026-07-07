@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Silvally"
+  ],
+  "showdown_form_change_id": "dragon",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "rks_memory=dragon"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "rks_memory=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:silvally_dragon_memory"
+}

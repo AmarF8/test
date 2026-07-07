@@ -1,0 +1,6 @@
+{
+  "parent": "atlas-common-fabric:block/empty",
+  "textures": {
+    "particle": "atlas-common-fabric:block/statues/palkia_origin_gray"
+  }
+}

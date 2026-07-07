@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "atlas-common-fabric:block/statues/aggron_statue"
+    },
+    "facing=east": {
+      "model": "atlas-common-fabric:block/statues/aggron_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "atlas-common-fabric:block/statues/aggron_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "atlas-common-fabric:block/statues/aggron_statue",
+      "y": 270
+    }
+  }
+}

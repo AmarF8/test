@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "com/atlas/common/fabric/mixin/content/accessor/BossBarHudAccessor": {
+      "bossBars": "field_2060:Ljava/util/Map;"
+    },
+    "com/atlas/common/fabric/mixin/content/accessor/ToastManagerAccessor": {
+      "visibleEntries": "field_2239:Ljava/util/List;"
+    },
+    "com/atlas/common/fabric/mixin/content/accessor/WorldRendererAccessor": {
+      "blockBreakingProgressions": "field_20950:Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;"
+    },
+    "com/atlas/common/fabric/mixin/content/client/ChatHudSafariFishingMixin": {
+      "render": "Lnet/minecraft/class_338;method_1805(Lnet/minecraft/class_332;IIIZ)V"
+    },
+    "com/atlas/common/fabric/mixin/content/client/ChatScreenSafariFishingMixin": {
+      "render": "Lnet/minecraft/class_408;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "com/atlas/common/fabric/mixin/content/client/ClientPlayerInteractionManagerStatueMixin": {
+      "attackBlock": "Lnet/minecraft/class_636;method_2910(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z",
+      "breakBlock": "Lnet/minecraft/class_636;method_2899(Lnet/minecraft/class_2338;)Z",
+      "updateBlockBreakingProgress": "Lnet/minecraft/class_636;method_2902(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/atlas/common/fabric/mixin/content/accessor/BossBarHudAccessor": {
+        "bossBars": "field_2060:Ljava/util/Map;"
+      },
+      "com/atlas/common/fabric/mixin/content/accessor/ToastManagerAccessor": {
+        "visibleEntries": "field_2239:Ljava/util/List;"
+      },
+      "com/atlas/common/fabric/mixin/content/accessor/WorldRendererAccessor": {
+        "blockBreakingProgressions": "field_20950:Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;"
+      },
+      "com/atlas/common/fabric/mixin/content/client/ChatHudSafariFishingMixin": {
+        "render": "Lnet/minecraft/class_338;method_1805(Lnet/minecraft/class_332;IIIZ)V"
+      },
+      "com/atlas/common/fabric/mixin/content/client/ChatScreenSafariFishingMixin": {
+        "render": "Lnet/minecraft/class_408;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "com/atlas/common/fabric/mixin/content/client/ClientPlayerInteractionManagerStatueMixin": {
+        "attackBlock": "Lnet/minecraft/class_636;method_2910(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z",
+        "breakBlock": "Lnet/minecraft/class_636;method_2899(Lnet/minecraft/class_2338;)Z",
+        "updateBlockBreakingProgress": "Lnet/minecraft/class_636;method_2902(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z"
+      }
+    }
+  }
+}

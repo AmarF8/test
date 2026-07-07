@@ -1,0 +1,19 @@
+{
+  "pokemons": [
+    "Rotom"
+  ],
+  "showdown_form_change_id": "mow",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "appliance=mow"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "appliance=none"
+      ]
+    }
+  },
+  "effect": "mega_showdown:rotom_mow_effect"
+}

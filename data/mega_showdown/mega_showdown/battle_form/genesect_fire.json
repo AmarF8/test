@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    "Genesect"
+  ],
+  "showdown_form_change_id": "fire",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "techno_drive=fire"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "techno_drive=normal"
+      ]
+    }
+  },
+  "effect": "mega_showdown:mega_evolution",
+  "item": "burndrive",
+  "forward_item": "burndrive",
+  "equip_forward_item": true
+}

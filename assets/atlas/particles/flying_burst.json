@@ -1,0 +1,9 @@
+{
+  "textures": [
+    "atlas:rs_cloudfour",
+    "atlas:rs_cloudthree",
+    "atlas:rs_cloudtwo",
+    "atlas:rs_cloudone",
+    "minecraft:cloud"
+  ]
+}

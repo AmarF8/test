@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "atlas-common-fabric:block/stations/hut" },
+    "facing=east": { "model": "atlas-common-fabric:block/stations/hut", "y": 90 },
+    "facing=south": { "model": "atlas-common-fabric:block/stations/hut", "y": 180 },
+    "facing=west": { "model": "atlas-common-fabric:block/stations/hut", "y": 270 }
+  }
+}

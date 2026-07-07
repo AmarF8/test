@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "atlas-common-fabric:solar_ingot"
+    }
+  },
+  "result": {
+    "id": "atlas-common-fabric:solar_block"
+  }
+}
