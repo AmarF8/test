@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.atlas.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "content.ChatScreenMixin",
+    "content.ChatLogStripMixin",
+    "content.BattleGUIActionSelectionMixin",
+    "content.BattleMessageHandlerMixin",
+    "content.BattleMoveSelectionMixin",
+    "content.BattleOverlayMixin",
+    "content.BattleTargetSelectionTargetTileMixin",
+    "content.DrawContextTextEffectMixin",
+    "content.HideArmorMixin",
+    "content.InventoryScreenMixin",
+    "content.PCIVOverlayMixin",
+    "content.PCGUIMixin",
+    "content.StorageWidgetMixin",
+    "content.PlushieHitboxMixin",
+    "content.MorphPlayerRendererMixin",
+    "content.MorphPokemonRiderMixin"
+  ],
+  "refmap": "atlas-client-refmap.json"
+}
